@@ -18,7 +18,7 @@ public class StudentController extends HttpServlet {
 	@Override
 	public void init() throws ServletException {
 		beanContext = new ClassPathXmlApplicationContext("com\\resource\\spring.xml");
-		super.init();
+		
 	}
 
 	@Override
